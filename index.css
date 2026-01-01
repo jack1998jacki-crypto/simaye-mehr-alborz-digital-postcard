@@ -1,0 +1,47 @@
+/* Main Application Styles */
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background-color: #FAF5FF;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF5FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A855F7;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7E22CE;
+}
+
+/* Utility classes */
+.text-brand-dark {
+  color: #2E1065;
+}
+
+.bg-brand-primary {
+  background-color: #7E22CE;
+}
+
+.bg-brand-accent {
+  background-color: #A855F7;
+}
+
+.bg-brand-light {
+  background-color: #FAF5FF;
+}
+
+.bg-brand-surface {
+  background-color: #F3E8FF;
+}
